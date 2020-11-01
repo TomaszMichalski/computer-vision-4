@@ -1,0 +1,96 @@
+
+Training Set Shape:  (5, 2148, 64, 64, 3)
+Template Set Shape:  (5, 267, 64, 64, 3)
+Test Set Shape:  (5, 41, 64, 64, 3)
+
+Training Pose Set Shape:  (5, 2148, 4)
+Template Pose Set Shape:  (5, 267, 4)
+Test Pose Set Shape:  (5, 41, 4)
+2020-10-27 18:56:52.104177: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary
+was not compiled to use: AVX2
+2020-10-27 18:56:52.491199: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1356] Found device 0 with properties:
+name: Quadro K2100M major: 3 minor: 0 memoryClockRate(GHz): 0.6665
+pciBusID: 0000:01:00.0
+totalMemory: 2.00GiB freeMemory: 1.92GiB
+2020-10-27 18:56:52.499199: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1435] Adding visible gpu devices: 0
+2020-10-27 18:56:52.798217: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge
+matrix:
+2020-10-27 18:56:52.808217: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:929]      0
+2020-10-27 18:56:52.814217: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:942] 0:   N
+2020-10-27 18:56:52.820218: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/tas
+k:0/device:GPU:0 with 1708 MB memory) -> physical GPU (device: 0, name: Quadro K2100M, pci bus id: 0000:01:00.0, compute capability: 3.0)
+10 : Train Loss:  69.686584
+10 : Validation Loss:  70.708115
+20 : Train Loss:  65.88841
+20 : Validation Loss:  65.94205
+30 : Train Loss:  42.035576
+30 : Validation Loss:  48.342846
+40 : Train Loss:  26.44588
+40 : Validation Loss:  31.956171
+50 : Train Loss:  17.475086
+50 : Validation Loss:  22.599941
+60 : Train Loss:  23.545692
+60 : Validation Loss:  27.558018
+70 : Train Loss:  19.299002
+70 : Validation Loss:  19.294338
+80 : Train Loss:  18.584858
+80 : Validation Loss:  18.053394
+90 : Train Loss:  19.408585
+90 : Validation Loss:  21.467344
+100 : Train Loss:  17.7673
+100 : Validation Loss:  15.635806
+Epoch end!
+110 : Train Loss:  15.659338
+110 : Validation Loss:  18.707891
+120 : Train Loss:  12.488958
+120 : Validation Loss:  17.38018
+130 : Train Loss:  17.905054
+130 : Validation Loss:  14.379542
+140 : Train Loss:  15.735929
+140 : Validation Loss:  13.0881405
+150 : Train Loss:  16.894644
+150 : Validation Loss:  17.374771
+160 : Train Loss:  16.140245
+160 : Validation Loss:  12.900658
+170 : Train Loss:  15.536531
+170 : Validation Loss:  17.081608
+180 : Train Loss:  12.813159
+180 : Validation Loss:  14.8449545
+190 : Train Loss:  18.247215
+190 : Validation Loss:  15.503549
+200 : Train Loss:  18.586487
+200 : Validation Loss:  13.452307
+Epoch end!
+210 : Train Loss:  12.652599
+210 : Validation Loss:  11.676166
+220 : Train Loss:  14.031712
+220 : Validation Loss:  14.105844
+230 : Train Loss:  13.271606
+230 : Validation Loss:  14.530492
+240 : Train Loss:  21.20003
+240 : Validation Loss:  17.577526
+250 : Train Loss:  15.929731
+250 : Validation Loss:  13.518775
+260 : Train Loss:  11.851723
+260 : Validation Loss:  10.709456
+270 : Train Loss:  11.516117
+270 : Validation Loss:  10.876007
+280 : Train Loss:  14.796595
+280 : Validation Loss:  12.340252
+290 : Train Loss:  11.159268
+290 : Validation Loss:  13.80003
+300 : Train Loss:  13.529178
+300 : Validation Loss:  9.233023
+2020-10-27 18:59:11.073125: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocat
+e 3.10GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+Accuracy:  0.36585365853658536
+Epoch end!
+[0, 0, 0, 0, 0, 0]
+Normalized confusion matrix
+[[48.78 43.9   0.    0.    7.32]
+ [51.22 46.34  0.    2.44  0.  ]
+ [ 0.   26.83 17.07  0.   56.1 ]
+ [24.39 58.54  0.    2.44 14.63]
+ [ 2.44 24.39  4.88  0.   68.29]]
+
+Press any key to continue . . .
